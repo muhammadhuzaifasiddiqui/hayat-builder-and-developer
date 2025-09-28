@@ -85,7 +85,7 @@ const Hero = () => {
                     }`}
                   onClick={() => handleTabChange("sell")}
                 >
-                  Sell
+                  Rent
                 </button>
                 <button
                   className={`px-9 py-3 text-xl rounded-t-md focus:outline-none ${activeTab === "buy"
@@ -142,9 +142,9 @@ const Hero = () => {
                         <button onClick={handleSearchSell} className="flex-1 py-2 md:py-4 text-lg md:text-xl px-4 md:px-8 bg-primary text-white rounded-lg hover:bg-blue-700 transition duration-300 mb-2 md:mb-0 md:mr-2">
                           Search
                         </button>
-                        <button onClick={handleSearchSell} className="flex-1 py-2 md:py-4 text-lg md:text-xl px-4 md:px-8 bg-skyBlue/80 dark:bg-skyBlue/80 dark:hover:bg-skyBlue dark:hover:border-primary border border-transparent text-white rounded-lg hover:bg-skyBlue transition duration-300 text-nowrap">
+                        {/* <button onClick={handleSearchSell} className="flex-1 py-2 md:py-4 text-lg md:text-xl px-4 md:px-8 bg-skyBlue/80 dark:bg-skyBlue/80 dark:hover:bg-skyBlue dark:hover:border-primary border border-transparent text-white rounded-lg hover:bg-skyBlue transition duration-300 text-nowrap">
                           Advance Search
-                        </button>
+                        </button> */}
                       </div>
                       {error && (
                         <p className="text-red-600 text-sm mt-2 md:mt-0">{error}</p>

@@ -19,7 +19,7 @@ export default function Home() {
       <Hero />
       <DiscoverProperties />
       <Listing />
-      <Calculator />
+      {/* <Calculator /> */}
       <Features />
       <History />
       <Testimonials />

@@ -19,7 +19,7 @@ const headerData = [
     ],
   },
   { label: "Contact", href: "/contact" },
-  { label: "Documentation", href: "/documentation" },
+  // { label: "Documentation", href: "/documentation" },
 ];
 
 export const GET = async () => {
