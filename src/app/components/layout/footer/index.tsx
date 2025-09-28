@@ -26,12 +26,12 @@ const Footer = () => {
                 Address
               </h4>
               <p className="mb-6 text-gray text-base">
-                Property Real estate 4263 Wilkinson Street Tennessee
+                Hayat Builder and Developer: Ink city 2 main bypass Hyderabad 
               </p>
               <div className="flex items-center gap-2">
                 <a
                   aria-label="social link"
-                  href="/#"
+                  href="https://www.facebook.com/profile.php?id=61574386286589"
                   className="p-1 rounded-md text-midnight_text bg-white bg-opacity-50 hover:bg-primary"
                 >
                   <svg
@@ -45,7 +45,7 @@ const Footer = () => {
                     <path d="M16.294 8.86875H14.369H13.6815V8.18125V6.05V5.3625H14.369H15.8128C16.1909 5.3625 16.5003 5.0875 16.5003 4.675V1.03125C16.5003 0.653125 16.2253 0.34375 15.8128 0.34375H13.3034C10.5878 0.34375 8.69714 2.26875 8.69714 5.12187V8.1125V8.8H8.00964H5.67214C5.19089 8.8 4.74402 9.17812 4.74402 9.72812V12.2031C4.74402 12.6844 5.12214 13.1313 5.67214 13.1313H7.94089H8.62839V13.8188V20.7281C8.62839 21.2094 9.00652 21.6562 9.55652 21.6562H12.7878C12.994 21.6562 13.1659 21.5531 13.3034 21.4156C13.4409 21.2781 13.544 21.0375 13.544 20.8312V13.8531V13.1656H14.2659H15.8128C16.2596 13.1656 16.6034 12.8906 16.6721 12.4781V12.4438V12.4094L17.1534 10.0375C17.1878 9.79688 17.1534 9.52187 16.9471 9.24687C16.8784 9.075 16.569 8.90312 16.294 8.86875Z" />
                   </svg>
                 </a>
-                <a
+                {/* <a
                   aria-label="social link"
                   href="/#"
                   className="p-1 rounded-md text-midnight_text bg-white bg-opacity-50 hover:bg-primary"
@@ -61,10 +61,10 @@ const Footer = () => {
                     <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
                   </svg>
 
-                </a>
+                </a> */}
                 <a
                   aria-label="social link"
-                  href="/#"
+                  href="https://www.facebook.com/profile.php?id=61574386286589"
                   className="p-1 rounded-md text-midnight_text bg-white bg-opacity-50 hover:bg-primary"
                 >
                   <svg
@@ -138,15 +138,15 @@ const Footer = () => {
             <div className="flex lg:flex-nowrap flex-wrap lg:flex-row lg:gap-11 gap-4 text-base sm:text-lg md:text-xl text-black text-opacity-50">
               <p className="text-white">
                 Phone :
-                <Link href="#" className="text-gray hover:text-white"> +(690) 2560 0020</Link>
+                <Link href="#" className="text-gray hover:text-white"> (+92)333 3546944, (+92)317 6007643</Link>
               </p>
               <p className="text-white">
                 Email :
-                <Link href="#" className="text-gray hover:text-white"> real@property.com</Link>
+                <Link href="#" className="text-gray hover:text-white"> HayatParadise2k@gmail.com</Link>
               </p>
             </div>
           </div>
-          <div className="max-w-lg w-full">
+          {/* <div className="max-w-lg w-full">
             <div className="flex justify-center lg:justify-end">
               <p className="items-center flex mr-3 text-base sm:text-lg md:text-xl font-bold text-white">Newsletter</p>
               <input
@@ -158,7 +158,7 @@ const Footer = () => {
                 Subscribe
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
