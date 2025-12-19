@@ -1,4 +1,4 @@
-export const extendedConfig = {
+ const extendedConfig = {
   boxShadow: {
     'property': '0 0px 30px #1817171a',
     'deatail_shadow': '0px 20px 80px 0px #68758D26',
@@ -71,3 +71,5 @@ export const extendedConfig = {
     '5xl': '2100px',
   },
 }
+
+export default extendedConfig;
