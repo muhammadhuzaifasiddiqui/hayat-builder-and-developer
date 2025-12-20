@@ -12,16 +12,15 @@ import SessionProviderComp from "./provider/SessionProviderComp";
 
 export default function RootLayout({
   children,
-  session,
 }: Readonly<{
   children: React.ReactNode;
-  session:any
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${dmsans.className}`}>
       <AppContextProvider>
-      <SessionProviderComp session={session}>
+        {/* Session prop yahan se hata diya hai kyunki SessionProvider khud handle karega */}
+        <SessionProviderComp> 
         <ThemeProvider
           attribute="class"
           enableSystem={false}
